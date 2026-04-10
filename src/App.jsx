@@ -316,7 +316,7 @@ function App() {
                 <div className="bg-white rounded-full p-3 shadow-sm"><i className="fas fa-phone-alt text-emerald-600 text-xl"></i></div>
                 <div>
                   <h4 className="font-bold text-gray-800">Contato direto</h4>
-                  <p className="text-gray-600">+55 86 99919-7867</p>
+                  <p className="text-gray-600">+55 86 9919-7867</p>
                 </div>
               </div>
               <div className="flex items-center gap-4 mb-5">
@@ -342,7 +342,7 @@ function App() {
                 <a href="https://github.com/Patriciaweb-22/portifolio" className="flex items-center gap-2 bg-gray-100 hover:bg-emerald-100 transition px-4 py-2 rounded-full text-gray-700">
                   <i className="fab fa-github text-xl"></i> GitHub
                 </a>
-                <a href="https://wa.me/55869999197867" className="flex items-center gap-2 bg-gray-100 hover:bg-emerald-100 transition px-4 py-2 rounded-full text-gray-700">
+                <a href="https://wa.me/5586999197867" className="flex items-center gap-2 bg-gray-100 hover:bg-emerald-100 transition px-4 py-2 rounded-full text-gray-700">
                   <i className="fab fa-whatsapp text-xl"></i> WhatsApp
                 </a>
               </div>
