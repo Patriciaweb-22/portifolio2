@@ -1,0 +1,54 @@
+/* Custom smooth scroll e foco */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .input-modern:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(7, 238, 161, 0.822);
+            border-color: #10b981;
+        }
+
+        .nav-link,
+        .mobile-nav-link {
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background: linear-gradient(90deg, #75e70a, #59e706);
+            transition: width 0.2s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .dark-card {
+            backdrop-filter: blur(8px);
+            background: rgba(156, 224, 147, 0.904);
+        }
+
+        @keyframes float-soft {
+            0% {
+                transform: translateY(0px);
+            }
+
+            100% {
+                transform: translateY(-5px);
+            }
+        }
+
+        .project-card:hover {
+            transform: translateY(-6px);
+            transition: all 0.25s ease;
+        }
